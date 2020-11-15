@@ -11,7 +11,7 @@
         <v-col cols="12" md="6" class="d-flex flex-column align-center">
           <h2 class="white--text pt-5">Vue</h2>
           <v-row>
-            <img :src="'/botellones-agua.png'" class="imagen" />
+            <img :src="'./botellones-agua.png'" class="imagen" />
           </v-row>
           <v-row>
             <v-btn @click="move = true">Realizar pedido</v-btn>

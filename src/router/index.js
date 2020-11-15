@@ -11,7 +11,7 @@ Vue.use(VueRouter);
 
 const routes = [
   {
-    path: "/",
+    path: "/hello",
     name: "hello",
     component: Hello,
   },
@@ -36,14 +36,14 @@ const routes = [
     component: Water,
   },
   {
-    path: "/pedido2",
+    path: "/",
     name: "pedido2",
     component: Pedido2,
   },
 ];
 
 const router = new VueRouter({
-  mode: "history",
+  mode: "hash",
   base: process.env.BASE_URL,
   routes,
 });
